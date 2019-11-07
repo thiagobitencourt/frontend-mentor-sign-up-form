@@ -163,3 +163,32 @@ a {
 .attribution a {
   color: var(--primary-blue);
 }
+
+/* DEKSTOP STYLES */
+@media screen and (min-width: 1333px) {
+  body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    height: 100vh;
+    margin: auto;
+  }
+
+  body section {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .welcome-section {
+    text-align: left;
+    margin-left: 10rem;
+  }
+
+  .welcome-section__title {
+    font-size: 2.5em;
+  }
+
+  footer {
+    grid-column: 1 / -1;
+  }
+}
