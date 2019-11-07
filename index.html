@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <article class="welcome-section">
+        <h1 class="welcome-section__title">Learn to code by watching others</h1>
+        <p class="welcome-section__text">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <section class="panel panel__message">
+        <strong>Try it free 7 days</strong> then $20/mo. thereafter
+      </section>
+      <main class="panel">
+        <form class="form" autocomplete="off" novalidate>
+          <section class="form__field">
+            <input
+              class="form__field--input"
+              autocomplete="off"
+              name="firstname"
+              placeholder="First Name"
+              type="text"
+              required
+            />
+            <p class="form__field--error">
+              <span>First name cannot be empty</span>
+            </p>
+          </section>
+
+          <section class="form__field">
+            <input
+              class="form__field--input"
+              autocomplete="off"
+              name="lastname"
+              placeholder="Last Name"
+              type="text"
+              required
+            />
+            <p class="form__field--error">
+              <span>Last name cannot be empty</span>
+            </p>
+          </section>
+
+          <section class="form__field">
+            <input
+              class="form__field--input"
+              autocomplete="off"
+              name="email"
+              placeholder="Email Address"
+              type="email"
+              required
+            />
+            <p class="form__field--error">
+              <span>Looks like this is not an email</span>
+            </p>
+          </section>
+
+          <section class="form__field">
+            <input
+              class="form__field--input"
+              name="password"
+              placeholder="Password"
+              type="password"
+              required
+            />
+            <p class="form__field--error">
+              <span>Password name cannot be empty</span>
+            </p>
+          </section>
+
+          <button class="button button__success" type="submit">
+            <span>Claim your free trial</span>
+          </button>
+          <p class="terms-message">
+            By clicking the button, you are agreeing to our
+            <a href="">Terms and Services</a>
+          </p>
+        </form>
+      </main>
+    </section>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          <span>Frontend Mentor</span> </a
+        >. Coded by
+        <a href="https://github.com/thiagobitencourt">
+          <span>Thiago Bitencourt</span></a
+        >.
+      </p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
