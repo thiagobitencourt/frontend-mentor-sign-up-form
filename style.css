@@ -175,7 +175,8 @@ a {
     margin: auto;
   }
 
-  body section {
+  body article,
+  body main {
     justify-self: center;
     align-self: center;
   }
