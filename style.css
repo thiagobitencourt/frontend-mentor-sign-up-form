@@ -167,6 +167,7 @@ a {
 /* DEKSTOP STYLES */
 @media screen and (min-width: 1333px) {
   body {
+    background-image: url("./images/bg-intro-desktop.png");
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
